@@ -6,12 +6,12 @@ const NavigationBar = () => {
         <div>
         <Navbar variant="dark">
             <Container>
-                <NavbarBrand>
+                <NavbarBrand href="/">
                     UwUFilms
                 </NavbarBrand>
                 <Nav>
-                    <Nav.Link>TRENDING</Nav.Link>
-                    <Nav.Link>SUPERHERO</Nav.Link>
+                    <Nav.Link href="#trending">TRENDING</Nav.Link>
+                    <Nav.Link href="#superhero">SUPERHERO</Nav.Link>
                 </Nav>
                 </Container>
         </Navbar>

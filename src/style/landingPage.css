@@ -21,6 +21,12 @@
 
 .trending {
     height: auto;
+    background: url("../assets/images/bg/romance.jpg");
+    background-size: cover;
+}
+
+.superhero {
+    height: auto;
     background: url("../assets/images/bg/spiderman.jpg");
     background-size: cover;
 }
